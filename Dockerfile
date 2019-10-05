@@ -1,6 +1,6 @@
-FROM golang:1.11
+FROM golang:1.12
 
-USER nobody
+USER root
 
 RUN mkdir -p /go/src/github.com/openshift/golang-ex
 WORKDIR /go/src/github.com/openshift/golang-ex
